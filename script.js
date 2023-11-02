@@ -67,7 +67,7 @@ class Game {
     onClickOnBlock(blockIdx) {
         if (this.moveBlock(blockIdx)) {
             if (this.checkPuzzleSolved()) {
-                setTimeout(() => alert('Puzzle solved!!'), 600);
+                setTimeout(() => alert('Excelente!! / Awesome!! '), 600);
             }
         }
     }
